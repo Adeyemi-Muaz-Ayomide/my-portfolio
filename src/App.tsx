@@ -13,7 +13,7 @@ import "./index.css";
 
 const App = () => {
   return (
-    <div className=" font-Inter bg-white text-black leading-7 w-lgContainter my-0 mx-auto">
+    <div className="app">
       <Header />
       <Nav />
       <About />
