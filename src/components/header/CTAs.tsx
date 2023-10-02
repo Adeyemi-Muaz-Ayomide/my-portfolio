@@ -6,7 +6,7 @@ const CTAs = () => {
       <a href={CV} download className=" btn bg-white">
         Download CV
       </a>
-      <a href="#contact" className="btn bg-slate-200">
+      <a href="#contact" className="btn bg-slate-500 text-white">
         Let's talk
       </a>
     </div>

@@ -1,8 +1,8 @@
 const Contact = () => {
   return (
-    <div>
+    <section id='contact'>
       <h1 className=" text-green-800 text-5xl">Contact</h1>
-    </div>
+    </section>
   );
 };
 

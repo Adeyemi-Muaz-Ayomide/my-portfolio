@@ -30,7 +30,7 @@
     @apply w-9/12 mx-auto my-0 sm:w-[90%] md:w-[86%];
   }
   section {
-    @apply mt-32 md:mt-24;
+    @apply mt-32 md:mt-24 h-screen;
   }
 
   section > h2,
@@ -40,11 +40,14 @@
   section > h2 {
     @apply mb-12;
   }
+  nav > a {
+    @apply bg-transparent p-3.5 rounded-[50%] flex text-lg
+  }
   a {
     @apply transition-all duration-500 ease-in;
   }
   a:hover {
-    @apply text-slate-600;
+    @apply text-slate-700;
   }
   img {
     @apply block w-full object-cover;

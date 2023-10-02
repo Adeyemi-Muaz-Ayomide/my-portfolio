@@ -1,15 +1,13 @@
 import Header from "./components/header/Header";
 import Nav from "./components/nav/Nav";
-import { About } from "./components/about/About";
+import About from "./components/about/About";
 import Experience from "./components/experience/Experience";
 import Services from "./components/services/Services";
-import Portfolio from "./components/portfolio/Portfolio";
-import Testimonials from "./components/testimonials/Testimonials";
+import Projects from "./components/projects/Projects";
+import Articles from "./components/articles/Articles";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import "./index.css";
-
-
 
 const App = () => {
   return (
@@ -19,8 +17,8 @@ const App = () => {
       <About />
       <Experience />
       <Services />
-      <Portfolio />
-      <Testimonials />
+      <Projects />
+      <Articles />
       <Contact />
       <Footer />
     </div>
