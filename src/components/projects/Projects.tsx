@@ -51,14 +51,14 @@ const data = [
 ];
 const Projects = () => {
   const articleStyle =
-    "p-5 rounded-[2rem] border border-solid border-transparent transition-all duration-500 ease-in bg-slate-500 hover:bg-transparent hover:border-slate-500";
+    "p-5 rounded-[2rem] border border-solid border-transparent transition-all duration-500 ease-in bg-slate-400 hover:bg-transparent hover:border-slate-500";
   const imageStyle = "rounded-3xl overflow-hidden";
   const headingThreeStyle = "mt-5 mr-0 mb-8";
   const itemCta = "gap-10 flex gap-4 mb-4";
   return (
     <section id="project">
       <h5>My Recent Work</h5>
-      <h2>Projects</h2>
+      <h2 className="text-slate-500 font-poppins">Projects</h2>
 
       <div className=" container grid grid-cols-3 gap-10 max-[1000px]:grid-cols-2 max-[1000px]:gap-5 max-[600px]:grid-cols-1 max-[600px]:gap-4">
         {data.map((data) => (
@@ -66,14 +66,19 @@ const Projects = () => {
             <div className={imageStyle}>
               <img src={data.image} alt={data.title} />
             </div>
-            <h3 className={headingThreeStyle}>
-              {data.title}
-            </h3>
+            <h3 className={headingThreeStyle}>{data.title}</h3>
             <div className={itemCta}>
-              <a href={data.github} className=" btn ">
+              <a
+                href={data.github}
+                className=" btn text-black bg-[#6366f1] border-none hover:text-white"
+              >
                 Github
               </a>
-              <a href={data.demo} className="btn btn-primary" target="_blank">
+              <a
+                href={data.demo}
+                className="btn btn-primary border-none"
+                target="_blank"
+              >
                 Live Demo
               </a>
             </div>
