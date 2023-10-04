@@ -4,22 +4,22 @@ import { BsWhatsapp } from "react-icons/bs";
 
 const Contact = () => {
   const articleStyle =
-    "bg-slate-200 p-4 border border-solid border-transparent transition-all duration-500 ease-in text-center rounded-2xl hover:bg-transparent hover:border-slate-300";
+    "bg-slate-200 p-4 border border-solid border-transparent transition-all duration-500 ease-in text-center rounded-2xl hover:bg-transparent hover:border-slate-300 dark:bg-slate-700 dark:hover:bg-transparent";
   const contactOptionIcon = "text-2xl mb-2 text-indigo-500";
   const contactOptionIconAnchor =
-    "mt-3 inline-block text-sm font-bold font-poppins";
+    "mt-3 inline-block text-sm font-bold font-poppins dark:text-slate-300";
   const inputTextarea =
     " w-full p-6 rounded-lg bg-transparent border border-solid border-slate-400 resize-none text-white";
   return (
-    <section id="contact">
+    <section id="contact" className="my-0">
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
 
-      <div className="container w-[58%] grid grid-cols-[30%,58%] gap-[12%] max-[1000px]:grid-cols-1 max-[1000px]:gap-8 max-[600px]:w-[90%]">
+      <div className="container w-[60%] grid grid-cols-[30%,58%] gap-[12%] max-[1000px]:grid-cols-1 max-[1000px]:gap-8 max-[600px]:w-[90%]">
         <div className=" flex flex-col gap-5">
           <article className={articleStyle}>
             <MdOutlineMail className={contactOptionIcon} />
-            <h4>Email</h4>
+            <h4 className="dark:text-slate-200">Email</h4>
             <h5>Adeyemimuaz1@gmail.com</h5>
             <a
               href="mailto:Adeyemimuaz1@gmail.com"

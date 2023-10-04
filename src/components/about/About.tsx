@@ -19,7 +19,7 @@ const About = () => {
         <div className=" max-[600px]:text-center">
           {/* About Cards */}
 
-          <p className=" mt-8 mr-0 mb-11 max-[1024px]:m-4 max-[1024px]:mx-0 max-[1024px]:mb-6 max-[600px]:mx-0 max-[600px]:my-6">
+          <p className=" font-poppins mt-8 mr-0 mb-11 max-[1024px]:m-4 max-[1024px]:mx-0 max-[1024px]:mb-6 max-[600px]:mx-0 max-[600px]:my-6 dark:text-slate-500">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
             atque nobis harum consequuntur voluptate. Maiores rem hic enim ullam
             expedita necessitatibus repellendus rerum tempora. Officiis sequi
