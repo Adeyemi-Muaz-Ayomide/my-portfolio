@@ -4,7 +4,7 @@ import { BsTwitter } from "react-icons/bs";
 
 const HeaderSocials = () => {
   return (
-    <div className=" flex flex-col items-center absolute gap-3.5 left-0 bottom-12 after:content-[''] after:w-[1.5px] after:h-8 after:bg-black max-[600px]:hidden">
+    <div className=" flex flex-col items-center absolute gap-3.5 left-0 bottom-12 after:content-[''] after:w-[1.5px] after:h-8 after:bg-black dark:after:bg-slate-300 max-[600px]:hidden dark:text-slate-300">
       <a href="https://linkedin.com" target="_blank">
         <BsLinkedin />
       </a>

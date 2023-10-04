@@ -4,9 +4,10 @@ import { BsWhatsapp } from "react-icons/bs";
 
 const Contact = () => {
   const articleStyle =
-    "p-5 border border-solid border-transparent text-center rounded-2xl hover:bg-transparent hover:border-transparent";
-  const contactOptionIcon = "text-2xl mb-2";
-  const contactOptionIconAnchor = "mt-3 inline-block text-sm";
+    "bg-slate-200 p-4 border border-solid border-transparent transition-all duration-500 ease-in text-center rounded-2xl hover:bg-transparent hover:border-slate-300";
+  const contactOptionIcon = "text-2xl mb-2 text-indigo-500";
+  const contactOptionIconAnchor =
+    "mt-3 inline-block text-sm font-bold font-poppins";
   const inputTextarea =
     " w-full p-6 rounded-lg bg-transparent border border-solid border-slate-400 resize-none text-white";
   return (
@@ -76,7 +77,7 @@ const Contact = () => {
             className={inputTextarea}
             required
           ></textarea>
-          <button type="submit" className="btn btn-primary">
+          <button type="submit" className="btn btn-primary mb-4">
             Send Message
           </button>
         </form>

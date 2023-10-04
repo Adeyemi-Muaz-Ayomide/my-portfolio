@@ -6,37 +6,40 @@
 
 @layer components {
   .app {
-    @apply bg-slate-50 font-Inter my-0 mx-auto leading-7;
+    @apply bg-slate-50 font-Inter my-0 mx-auto leading-7 dark:bg-black;
   }
   h1,
   h2,
   h3,
   h4,
   h5 {
-    @apply font-medium text-slate-700 opacity-100 dark:text-slate-400;
+    @apply font-medium text-slate-700 opacity-100 dark:text-slate-300;
   }
 
   h1 {
-    @apply text-4xl text-slate-900 font-extrabold  dark:text-slate-200 my-2;
+    @apply text-4xl text-slate-900 font-extrabold  dark:text-slate-100 my-2;
+  }
+  h2 {
+    @apply font-poppins text-slate-500 dark:text-slate-300;
   }
 
   .btn {
-    @apply w-max inline-block py-3 px-[1.2rem] rounded-lg cursor-pointer border border-solid border-slate-300 transition-all duration-500 ease-in ;
+    @apply w-max inline-block py-3 px-[1.2rem] rounded-lg cursor-pointer border border-solid border-slate-300 transition-all duration-500 ease-in;
   }
   .btn:hover {
     @apply border-transparent;
   }
   .btn-primary {
-    @apply bg-slate-500 text-white
+    @apply bg-slate-500 text-white dark:border-none;
   }
   .btn-primary:hover {
-    @apply text-black
+    @apply text-black;
   }
   .container {
     @apply w-9/12 mx-auto my-0 sm:w-[90%] md:w-[86%];
   }
   section {
-    @apply mt-32 md:mt-24;
+    @apply mt-32 md:mt-24 max-[600px]:mt-20;
   }
 
   section > h2,
@@ -47,10 +50,10 @@
     @apply mb-12;
   }
   nav > a {
-    @apply bg-transparent p-3.5 rounded-[50%] flex text-lg
+    @apply bg-transparent p-3.5 rounded-[50%] flex text-lg;
   }
   a {
-    @apply transition-all duration-500 ease-in;
+    @apply transition-all duration-500 ease-in ;
   }
   a:hover {
     @apply text-slate-700;
