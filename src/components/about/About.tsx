@@ -3,8 +3,7 @@ import ME from "../../assets/me-about.jpg";
 const About = () => {
   return (
     <section id="about">
-      <h5>Get To Know</h5>
-      <h2>About Me</h2>
+      <h1 className=" text-center font-Inter mb-12 mt-0">About Me</h1>
 
       <div className=" container grid grid-cols-[35%,50%] gap-[15%] max-[1024px]:gap-0 max-[1024px]:grid-cols-1">
         {/* About Me */}
@@ -17,20 +16,34 @@ const About = () => {
 
         {/* About Content */}
         <div className=" max-[600px]:text-center">
+          <div>
+            <h1 className="animate__animated animate__fadeInUpBig">
+              Code. Create. Collaborate.
+            </h1>
+          </div>
           {/* About Cards */}
-
-          <p className=" font-poppins mt-8 mr-0 mb-11 max-[1024px]:m-4 max-[1024px]:mx-0 max-[1024px]:mb-6 max-[600px]:mx-0 max-[600px]:my-6 dark:text-slate-500">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
-            atque nobis harum consequuntur voluptate. Maiores rem hic enim ullam
-            expedita necessitatibus repellendus rerum tempora. Officiis sequi
-            dolor hic alias aliquam! Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Eos, nobis, repudiandae laborum vel sapiente
-            beatae, nisi facere recusandae aperiam quidem in? Perspiciatis atque
-            neque maxime voluptatibus voluptate, incidunt asperiores natus?
+          <p className=" mt-0 font-poppins mr-0 mb-5 max-[1000px]:m-4 max-[1000px]:mx-0 max-[1000px]:mb-6 max-[600px]:mx-0 max-[600px]:my-6 max-[600px]:text-left dark:text-slate-500">
+            That's my motto in life. I'm a front-end web developer with a
+            passion for building beautiful and functional web applications. I
+            love coding, learning new technologies, and collaborating with
+            others. <br />
+            <br /> I'm also a fan of reading and writing articles about web
+            development and technology. I believe that sharing knowledge is
+            essential for the growth of the community, and I enjoy helping
+            others learn and grow.
+            <br />
+            <br /> Outside of work, I enjoy spending time with my friends and
+            family, traveling, and playing video games. I'm also a big fan of
+            open source software and I contribute to various projects whenever I
+            can. <br />
+            <br />
+            I'm always looking for new challenges and opportunities, so if you
+            have any interesting projects in mind, please don't hesitate to
+            reach out. I hope you like it!
           </p>
 
           <a href="#contact" className="btn btn-primary">
-            Let's Talk
+            Get In Touch
           </a>
         </div>
       </div>

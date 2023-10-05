@@ -5,18 +5,24 @@ import "animate.css";
 
 const Header = () => {
   return (
-    <header id="header" className=" h-screen pt-28 overflow-hidden max-[1024px]:h-[68vh] max-[600px]:h-screen">
+    <header
+      id="header"
+      className=" h-screen pt-28 overflow-hidden max-[1000px]:h-[80vh] max-[600px]:h-[140vh]"
+    >
       <div className=" container text-center h-full relative">
-        <h5>Hello, I'm</h5>
+        <h5 className=" text-xl">Hello, I'm</h5>
         <h1 className=" tracking-wide animate__animated animate__backInLeft">
           Adeyemi Muaz
         </h1>
-        <h5 className="text-slate-500 font-poppins">Web Developer</h5>
+        <h5 className="text-slate-500 font-poppins">
+          Muaz, a self-taught front-end developer from Lagos, Nigeria, is a
+          coding enthusiast with a passion for open source and the web platform.
+        </h5>
         <CTAs />
         <HeaderSocials />
 
         <div className=" w-80 h-[19rem] absolute left-1/2 translate-x-[-50%] mt-16 rounded-t-[12rem] overflow-hidden pt-12 pr-6 pb-6 pl-6 bg-slate-500">
-          <img src={ME} alt="picture of myself" />
+          <img src={ME} alt="picture of myself" className='' />
         </div>
 
         <a
