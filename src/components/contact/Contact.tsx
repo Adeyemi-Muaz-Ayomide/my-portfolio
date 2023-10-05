@@ -81,6 +81,12 @@ const Contact = () => {
             Send Message
           </button>
         </form>
+        <a
+          href="#header"
+          className=" relative right-[-55rem] bottom-20 font-light text-base rotate-90 max-[600px]:hidden dark:text-slate-300 dark:hover:dark:text-slate-700"
+        >
+          Back To Top
+        </a>
       </div>
     </section>
   );

@@ -19,7 +19,7 @@ const DarkModeToggle = () => {
     setHoverText("");
   };
   return (
-    <div className="fixed top-4 right-4">
+    <div className="absolute top-2 right-4">
       <button
         onClick={handleToggleDarkMode}
         className=" cursor-pointer p-3"

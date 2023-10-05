@@ -1,13 +1,16 @@
 import CTAs from "./CTAs";
 import ME from "../../assets/me.png";
 import HeaderSocials from "./HeaderSocials";
+import "animate.css";
 
 const Header = () => {
   return (
-    <header className=" h-screen pt-28 overflow-hidden max-[1024px]:h-[68vh] max-[600px]:h-screen">
+    <header id="header" className=" h-screen pt-28 overflow-hidden max-[1024px]:h-[68vh] max-[600px]:h-screen">
       <div className=" container text-center h-full relative">
         <h5>Hello, I'm</h5>
-        <h1 className=" tracking-wide">Adeyemi Muaz</h1>
+        <h1 className=" tracking-wide animate__animated animate__backInLeft">
+          Adeyemi Muaz
+        </h1>
         <h5 className="text-slate-500 font-poppins">Web Developer</h5>
         <CTAs />
         <HeaderSocials />
