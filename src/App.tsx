@@ -1,6 +1,6 @@
 import Header from "./components/header/Header";
 import About from "./components/about/About";
-import Experience from "./components/experience/Experience";
+import Skills from "./components/skills/Skills";
 import Projects from "./components/projects/Projects";
 import Articles from "./components/articles/Articles";
 import Contact from "./components/contact/Contact";
@@ -14,7 +14,7 @@ const App = () => {
       <DarkModeToggle />
       <Header />
       <About />
-      <Experience />
+      <Skills />
       <Projects />
       <Articles />
       <Contact />

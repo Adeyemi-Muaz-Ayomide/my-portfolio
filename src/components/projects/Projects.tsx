@@ -51,16 +51,15 @@ const data = [
 ];
 const Projects = () => {
   const articleStyle =
-    "p-5 rounded-[2rem] border border-solid border-transparent transition-all duration-500 ease-in bg-slate-400 hover:bg-transparent hover:border-slate-500 dark:bg-slate-700 dark:hover:bg-transparent";
+    "p-5 rounded-[2rem] border border-solid border-transparent transition-all duration-500 ease-in bg-slate-400 hover:bg-transparent hover:border-slate-500 dark:bg-[#57534e] dark:hover:bg-transparent";
   const imageStyle = "rounded-3xl overflow-hidden";
-  const headingThreeStyle = "mt-5 mr-0 mb-8 dark:text-white";
+  const headingThreeStyle = "mt-5 mr-0 mb-8 dark:text-yellow-100 font-workSans text-xl";
   const itemCta = "gap-10 flex gap-4 mb-4";
   return (
     <section id="project">
-      <h5>My Recent Work</h5>
-      <h2 className="text-slate-500 font-poppins">Projects</h2>
+      <h1 className=" mb-12 mt-0 ">Projects</h1>
 
-      <div className=" container grid grid-cols-3 gap-10 max-[1000px]:grid-cols-2 max-[1000px]:gap-5 max-[600px]:grid-cols-1 max-[600px]:gap-4">
+      <div className=" mx-20 grid grid-cols-3 gap-10 max-[1000px]:grid-cols-2 max-[1000px]:gap-5 max-[1000px]:mx-12 max-[600px]:grid-cols-1 max-[600px]:gap-4 max-[600px]:mx-7">
         {data.map((data) => (
           <article className={articleStyle} key={data.id}>
             <div className={imageStyle}>

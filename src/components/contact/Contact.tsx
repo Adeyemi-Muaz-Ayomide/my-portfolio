@@ -12,8 +12,8 @@ const Contact = () => {
     " w-full p-6 rounded-lg bg-transparent border border-solid border-slate-400 resize-none text-white";
   return (
     <section id="contact" className="my-0">
-      <h5>Get In Touch</h5>
-      <h2>Contact Me</h2>
+      
+      <h1>Contact Me</h1>
 
       <div className="container w-[60%] grid grid-cols-[30%,58%] gap-[12%] max-[1000px]:grid-cols-1 max-[1000px]:gap-8 max-[600px]:w-[90%]">
         <div className=" flex flex-col gap-5">

@@ -14,8 +14,7 @@ const Articles = () => {
   const swiperSlideImage = "block w-full";
   return (
     <section id="articles" className="mb-16">
-      <h5>I write also</h5>
-      <h2>Articles</h2>
+      <h1 className=" max-[600px]:mx-3">Featured Articles📝</h1>
       <Swiper
         effect={"coverflow"}
         grabCursor={true}

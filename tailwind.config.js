@@ -5,7 +5,7 @@ export default {
   theme: {
     // backgroundColor: {
     //   bgColor: '#fff',
-      
+
     // },
     // width: {
     //   lgContainter: "75%",
@@ -13,8 +13,10 @@ export default {
     //   smContainter: "90%",
     // },
     fontFamily: {
-      poppins: ["Poppins", "sans-serif"],
+      custom: ["Monument", "sans-serif"],
+      poly: ["Poly", "serif"],
       Inter: ["Inter", "sans-serif"],
+      workSans: ['Work Sans',"sans-serif"],
     },
     extend: {},
     plugins: [],
