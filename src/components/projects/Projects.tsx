@@ -51,7 +51,7 @@ const data = [
 ];
 const Projects = () => {
   const articleStyle =
-    "p-5 rounded-[2rem] border border-solid border-transparent transition-all duration-500 ease-in bg-slate-400 hover:bg-transparent hover:border-slate-500 dark:bg-[#57534e] dark:hover:bg-transparent";
+    "p-5 rounded-[2rem] border border-solid border-transparent transition-all duration-500 ease-in bg-slate-400 hover:bg-transparent hover:border-slate-500 dark:bg-[#292524] dark:hover:bg-transparent";
   const imageStyle = "rounded-3xl overflow-hidden";
   const headingThreeStyle = "mt-5 mr-0 mb-8 dark:text-yellow-100 font-workSans text-xl";
   const itemCta = "gap-10 flex gap-4 mb-4";
@@ -69,7 +69,7 @@ const Projects = () => {
             <div className={itemCta}>
               <a
                 href={data.github}
-                className=" btn text-black bg-[#6366f1] border-none hover:text-white"
+                className=" btn text-black bg-[#d6d3d1] border-none hover:text-white"
               >
                 Github
               </a>
