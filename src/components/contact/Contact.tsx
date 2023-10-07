@@ -1,6 +1,7 @@
 import { MdOutlineMail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
+import Form from "./Form";
 
 const Contact = () => {
   const articleStyle =
@@ -8,8 +9,7 @@ const Contact = () => {
   const contactOptionIcon = "text-2xl mb-2 text-indigo-500";
   const contactOptionIconAnchor =
     "mt-3 inline-block text-sm font-bold font-poppins dark:text-slate-300";
-  const inputTextarea =
-    " w-full p-6 rounded-lg bg-transparent border border-solid border-slate-400 resize-none text-black dark:text-slate-300";
+
   return (
     <section id="contact" className="my-0">
       <h1 className=" mb-12 mt-0 ">Contact Me</h1>
@@ -33,9 +33,9 @@ const Contact = () => {
             <h4 className="dark:text-yellow-100 font-Inter font-bold">
               Messenger
             </h4>
-            <h5 className="text-slate-700">Adeyemimuaz1@gmail.com</h5>
+            <h5 className="text-slate-700">Adeyemi Muaz Ayomide</h5>
             <a
-              href="mailto:Adeyemimuaz1@gmail.com"
+              href="https://m.me/"
               target="_blank"
               className={contactOptionIconAnchor}
             >
@@ -47,9 +47,9 @@ const Contact = () => {
             <h4 className="dark:text-yellow-100 font-Inter font-bold">
               WhatsApp
             </h4>
-            <h5 className="text-slate-700">Adeyemimuaz1@gmail.com</h5>
+            <h5 className="text-slate-700">+2347084605347</h5>
             <a
-              href="mailto:Adeyemimuaz1@gmail.com"
+              href="https://wa.me/+2347084605347?text=heyyyy.com/send?phone=+2347084605347"
               target="_blank"
               className={contactOptionIconAnchor}
             >
@@ -58,32 +58,7 @@ const Contact = () => {
           </article>
         </div>
 
-        <form className="flex flex-col gap-4 mt-1">
-          <input
-            type="text"
-            name="name"
-            placeholder="Your Full Name"
-            className={inputTextarea}
-            required
-          />
-          <input
-            type="email"
-            name="email"
-            placeholder="Your Email"
-            className={inputTextarea}
-            required
-          />
-          <textarea
-            name="message"
-            rows={7}
-            placeholder="Your Message"
-            className={inputTextarea}
-            required
-          ></textarea>
-          <button type="submit" className="btn btn-primary mb-4">
-            Send Message
-          </button>
-        </form>
+        <Form />
         <a
           href="#header"
           className=" relative right-[-55rem] bottom-20 font-light text-base rotate-90 max-[600px]:hidden dark:text-slate-300 dark:hover:dark:text-slate-700"
